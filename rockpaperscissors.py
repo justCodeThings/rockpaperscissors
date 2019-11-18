@@ -53,7 +53,7 @@ def run():
     print(f"\nround report: \nround: {rounds}\nai wins: {ai_victory}, player wins: {user_victory}\nlast response: {last_response}\nSecond to last response: {secondTo_last_response}\nThird to last response: {thirdTo_last_response}\nML training input (1 = Rock, 2 = Paper, 3 = Scissors): {train_input}\nML training output: {train_output}")
 
     # Winning cards
-    #winning_cards(rounds, ai_victory, user_victory)
+    winning_cards(rounds, ai_victory, user_victory)
 
     rounds += 1
 
